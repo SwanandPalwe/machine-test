@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Flexible Benefits Solution</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">    
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12"><h1 class="text-center text-primary">Flexible Benefits Solution</h1></div>
+	</div>
+	<div class="row">
+		<div class="col-md-9 benefits-plans">
+			
+			<div class="row plan-health">
+				<div class="plan-title"><h2>Health</h2></div>
+				<div class="col-md-3 form-check">
+					<label class="plan-info form-check-label">
+						<div class="plan-point">100</div>
+						<div class="benefit-type">
+							<div class="wrap">
+								<p>Benefit 1</p>
+							</div>
+						</div>
+						<div class="plan-select"><input type="checkbox" class="form-check-input" value="" name="benefit_1" /></div>
+						<div class="plan-details float-left ml-1">
+							<button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailsModal">Details</button>
+						</div>
+						<div class="qty float-right mr-1"><span class="multiple">X</span><span class="qty-number">1</span></div>
+					</label>
+				</div>
+				<div class="col-md-3 form-check">
+					<label class="plan-info form-check-label">
+						<div class="plan-point">200</div>
+						<div class="benefit-type">
+							<div class="wrap">
+								<p>Benefit 2</p>
+								<p>(Default)</p>
+							</div>
+						</div>
+						<div class="plan-select"><input type="checkbox" class="form-check-input" value="" name="benefit_2" /></div>
+						<div class="plan-details float-left ml-1">
+							<button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailsModal">Details</button>
+						</div>
+						<div class="qty float-right mr-1"><span class="multiple">X</span><span class="qty-number">2</span></div>
+					</label>
+				</div>				
+				<div class="col-md-3 form-check">
+					<label class="plan-info form-check-label">
+						<div class="plan-point">300</div>
+						<div class="benefit-type">
+							<div class="wrap">
+								<p>Benefit 3</p>
+							</div>
+						</div>
+						<div class="plan-select"><input type="checkbox" class="form-check-input" value="" name="benefit_3" /></div>
+						<div class="plan-details float-left ml-1">
+							<button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailsModal">Details</button>
+						</div>
+						<div class="qty float-right mr-1"><span class="multiple">X</span><span class="qty-number">3</span></div>
+					</label>
+				</div>				
+				<div class="col-md-3 form-check">
+					<label class="plan-info form-check-label">
+						<div class="plan-point">400</div>
+						<div class="benefit-type">
+							<div class="wrap">
+								<p>Benefit 4</p>
+							</div>
+						</div>
+						<div class="plan-select"><input type="checkbox" class="form-check-input" value="" name="benefit_4" /></div>
+						<div class="plan-details float-left ml-1">
+							<button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailsModal">Details</button>
+						</div>
+						<div class="qty float-right mr-1"><span class="multiple">X</span><span class="qty-number">4</span></div>
+					</label>
+				</div>
+			</div>
+			
+			<div class="row plan-life">
+				<div class="plan-title"><h2>Life</h2></div>
+				<div class="col-md-3 form-check">
+					<label class="plan-info form-check-label">
+						<div class="plan-point">300</div>
+						<div class="benefit-type">
+							<div class="wrap">
+								<p>Benefit 1</p>
+							</div>
+						</div>
+						<div class="plan-select"><input type="checkbox" class="form-check-input" value="" name="benefit_1" /></div>
+						<div class="plan-details float-left ml-1">
+							<button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailsModal">Details</button>
+						</div>
+						<div class="qty float-right mr-1"><span class="multiple">X</span><span class="qty-number">0.5</span></div>
+					</label>
+				</div>
+				<div class="col-md-3 form-check ">
+					<label class="plan-info form-check-label">
+						<div class="plan-point">400</div>
+						<div class="benefit-type">
+							<div class="wrap">
+								<p>Benefit 2</p>
+								<p>(Default)</p>
+							</div>
+						</div>
+						<div class="plan-select"><input type="checkbox" class="form-check-input" value="" name="benefit_2" /></div>
+						<div class="plan-details float-left ml-1">
+							<button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailsModal">Details</button>
+						</div>
+						<div class="qty float-right mr-1"><span class="multiple">X</span><span class="qty-number">1</span></div>
+					</label>
+				</div>				
+				<div class="col-md-3 form-check">
+					<label class="plan-info form-check-label">
+						<div class="plan-point">450</div>
+						<div class="benefit-type">
+							<div class="wrap">
+								<p>Benefit 3</p>
+							</div>
+						</div>
+						<div class="plan-select"><input type="checkbox" class="form-check-input" value="" name="benefit_3" /></div>
+						<div class="plan-details float-left ml-1">
+							<button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailsModal">Details</button>
+						</div>
+						<div class="qty float-right mr-1"><span class="multiple">X</span><span class="qty-number">2</span></div>
+					</label>
+				</div>				
+				<div class="col-md-3 form-check">
+					<label class="plan-info form-check-label">
+						<div class="plan-point">600</div>
+						<div class="benefit-type">
+							<div class="wrap">
+								<p>Benefit 4</p>
+							</div>
+						</div>
+						<div class="plan-select"><input type="checkbox" class="form-check-input" value="" name="benefit_4" /></div>
+						<div class="plan-details float-left ml-1">
+							<button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailsModal">Details</button>
+						</div>
+						<div class="qty float-right mr-1"><span class="multiple">X</span><span class="qty-number">1</span></div>
+					</label>
+				</div>
+			</div>
+			
+			<div class="row plan-accident">
+				<div class="plan-title"><h2>Accident</h2></div>
+				<div class="col-md-3 form-check">
+					<label class="plan-info form-check-label">
+						<div class="plan-point">100</div>
+						<div class="benefit-type">
+							<div class="wrap">
+								<p>Benefit 1</p>
+							</div>
+						</div>
+						<div class="plan-select"><input type="checkbox" class="form-check-input" value="" name="benefit_1" /></div>
+						<div class="plan-details float-left ml-1">
+							<button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailsModal">Details</button>
+						</div>
+						<div class="qty float-right mr-1"><span class="multiple">X</span><span class="qty-number">1</span></div>
+					</label>
+				</div>
+				<div class="col-md-3 form-check">
+					<label class="plan-info form-check-label">
+						<div class="plan-point">250</div>
+						<div class="benefit-type">
+							<div class="wrap">
+								<p>Benefit 2</p>								
+							</div>
+						</div>
+						<div class="plan-select"><input type="checkbox" class="form-check-input" value="" name="benefit_2" /></div>
+						<div class="plan-details float-left ml-1">
+							<button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailsModal">Details</button>
+						</div>
+						<div class="qty float-right mr-1"><span class="multiple">X</span><span class="qty-number">1</span></div>
+					</label>
+				</div>				
+				<div class="col-md-3 form-check ">
+					<label class="plan-info form-check-label">
+						<div class="plan-point">600</div>
+						<div class="benefit-type">
+							<div class="wrap">
+								<p>Benefit 3</p>
+								<p>(Default)</p>
+							</div>
+						</div>
+						<div class="plan-select"><input type="checkbox" class="form-check-input" value="" name="benefit_3" /></div>
+						<div class="plan-details float-left ml-1">
+							<button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailsModal">Details</button>
+						</div>
+						<div class="qty float-right mr-1"><span class="multiple">X</span><span class="qty-number">1</span></div>
+					</label>
+				</div>				
+				<div class="col-md-3 form-check">
+					<label class="plan-info form-check-label">
+						<div class="plan-point">750</div>
+						<div class="benefit-type">
+							<div class="wrap">
+								<p>Benefit 4</p>
+							</div>
+						</div>
+						<div class="plan-select"><input type="checkbox" class="form-check-input" value="" name="benefit_4" /></div>
+						<div class="plan-details float-left ml-1">
+							<button type="button" class="btn btn-link" data-toggle="modal" data-target="#detailsModal">Details</button>
+						</div>
+						<div class="qty float-right mr-1"><span class="multiple">X</span><span class="qty-number">1</span></div>
+					</label>
+				</div>
+			</div>
+			
+		</div>
+		<aside class="col-md-3 calculations">
+			<h3>Wallet Allocation: 1400</h3>
+			<div class="clearfix"></div>
+			<table id="calc-details" class="table table-bordered">
+				<thead>
+					<tr>
+						<th>Point</th>
+						<th>Multiplier</th>
+						<th>Total</th>
+					</tr>
+				</thead>
+				<tbody>
+					<!--<tr>
+						<td>200</td>
+						<td>2</td>
+						<td>400</td>
+					</tr>
+					<tr>
+						<td>400</td>
+						<td>1</td>
+						<td>400</td>
+					</tr>
+					<tr>
+						<td>600</td>
+						<td>1</td>
+						<td>600</td>
+					</tr>-->
+				</tbody>
+				<tfoot>
+					<tr>
+						<th></th>
+						<th>Total</th>
+						<th>1400</th>
+					</tr>
+				</tfoot>
+			</table>
+			<div class="clearfix"></div>
+			<table id="wallet-summary" class="table">
+				<tbody>
+					<tr>
+						<td>Wallet Amount</td>
+						<td id="wallet-balance">1400</td>
+					</tr>
+					<tr>
+						<td>Used</td>
+						<td id="total-amount">1400</td>
+					</tr>
+					<tr>
+						<td>Available</td>
+						<td id="available-balance">0</td>
+					</tr>
+					<tr>
+						<td>You Pay</td>
+						<td id="pay-amount">0</td>
+					</tr>
+				</tbody>
+			</table>			
+			<div class="clearfix"></div>
+			<a href="summary.html" class="btn btn-success">Checkout</a>
+		</aside>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+
+$('input[type="checkbox"]').click(function(){
+  if($(this).prop("checked") == true){
+  $(this).closest('.form-check').addClass('active');
+  var plan_type = $(this).closest('.form-check').siblings('.plan-title').text();
+  var plan_type_name = $(this).parent('div').siblings('.benefit-type').children('.wrap').children('p').text();
+  var plan_name = plan_type_name.replace(/ /g,'');
+  var plan_id = plan_type+"-"+plan_name;
+  var plan_points = $(this).parent('div').siblings('.plan-point').text();
+  var plan_qty = $(this).parent('div').siblings('.qty').children('.qty-number').text();
+  var plan_total = plan_points*plan_qty;
+  
+  var markup = "<tr id=" + plan_id + "><td class='point'>" + plan_points + "</td><td class='mult'>"+ plan_qty+"</td><td class='total'>"+plan_total+"</td></tr>";
+                 $("#calc-details tbody").append(markup);
+
+   var TotalValue = 0;
+    $("#calc-details tbody tr").each(function(){
+          TotalValue += parseFloat($(this).find(':last-child').text());
+    });
+    console.log(TotalValue);
+    $("#calc-details tfoot tr").find(':last-child').text(TotalValue);
+	$("#total-amount").text(TotalValue);
+
+  //console.log(plan_id);
+  //console.log(plan_points);
+  //console.log(plan_qty);
+  //console.log(plan_total);
+  var wallet_bal = $("#wallet-balance").text();
+  var available = wallet_bal - TotalValue;
+  if(TotalValue > wallet_bal){
+	var pay_amount = TotalValue - wallet_bal;
+	var bal_amount = wallet_bal - TotalValue;
+	$("#pay-amount").text(pay_amount);		
+	$("#available-balance").text(bal_amount);		
+  }else if(TotalValue < wallet_bal){
+	var bal_amount = wallet_bal - TotalValue;
+	var pay_amount = wallet_bal - TotalValue;
+	$("#pay-amount").text('0');	
+	$("#available-balance").text(bal_amount);		
+  }else{
+	var pay_amount = wallet_bal - TotalValue;
+	$("#pay-amount").text(pay_amount);	
+	$("#available-balance").text(bal_amount);	
+  }	  
+  //console.log(available);
+
+}else if($(this).prop("checked") == false){
+  $(this).closest('.form-check').removeClass('active');
+  $(this).removeAttr('checked');
+  var plan_type = $(this).closest('.form-check').siblings('.plan-title').text();
+  var plan_type_name = $(this).parent('div').siblings('.benefit-type').children('.wrap').children('p').text();
+  var plan_name = plan_type_name.replace(/ /g,'');
+  var plan_id = plan_type+"-"+plan_name;
+  var plan_points = $(this).parent('div').siblings('.plan-point').text();
+  var plan_qty = $(this).parent('div').siblings('.qty').children('.qty-number').text();
+  var plan_total = plan_points*plan_qty;
+  var remove_id = "#"+plan_id;
+  $(remove_id).remove();
+
+  var TotalValue = 0;
+    $("#calc-details tbody tr").each(function(){
+          TotalValue += parseFloat($(this).find(':last-child').text());
+    });
+    //console.log(TotalValue);
+    $("#calc-details tfoot tr").find(':last-child').text(TotalValue);
+	//console.log(TotalValue);
+	$("#calc-details tfoot tr").find(':last-child').text(TotalValue);
+
+	//console.log(remove_id);
+	  $("#total-amount").text(TotalValue);
+	  var wallet_bal = $("#wallet-balance").text();
+	  var available = wallet_bal - TotalValue;
+	  if(TotalValue > wallet_bal){
+		var pay_amount = TotalValue - wallet_bal;
+		$("#pay-amount").text(pay_amount);	
+		$("#available-balance").text(bal_amount);	
+	  }else if(TotalValue < wallet_bal){
+		var bal_amount = wallet_bal - TotalValue;
+		var pay_amount = wallet_bal - TotalValue;
+		$("#pay-amount").text('0');	
+		$("#available-balance").text(bal_amount);	
+	  }else{
+		var pay_amount = wallet_bal - TotalValue;
+		$("#pay-amount").text(pay_amount);	
+		$("#available-balance").text(bal_amount);	
+	  }	  
+}
+});
+
+});
+</script>
+</body>
+</html>
